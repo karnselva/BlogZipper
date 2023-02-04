@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+.main-screen{
+    min-height: 85vh;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.page{
+    width: 100%;
+}
+
+.page h1{
+    font-size: 60px;
+    font-family: "Work Sans";
+    padding: 5px 10px;
+}
+
+@media (max-width:600px){
+    .page h1{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+}
